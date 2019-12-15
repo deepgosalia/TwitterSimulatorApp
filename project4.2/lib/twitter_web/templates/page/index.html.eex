@@ -1,0 +1,67 @@
+<!-- The list of messages will appear here: -->
+
+
+<div class="form-group" id = "login_div">
+  <%# <div class="col-xs-3">
+    <input type="text" id="name" class="form-control" placeholder="Your Name" autofocus>
+  </div>
+  <div class="col-xs-9">
+    <input type="text" id="msg" class="form-control" placeholder="Your Message">
+  </div> %>
+
+  <h3>Signup</h3>
+
+  <div class="col-xs-3">
+    <input type="text" id="usr" class="form-control" placeholder="Your User Name" autofocus>
+  </div>
+  <div class="col-xs-9">
+    <input type="text" id="pswd" class="form-control" placeholder="Your Password">
+  </div>
+  <button type="submit" id="btn_login" >Login</button>
+  <button type="submit" id="btn_register">Register</button>
+  <h4 id="msg_sign"></h4>
+
+</div>
+
+<div id = "dashboard" style="display:none">
+<button type="submit" id="btn_logout" >Logout</button>
+
+  <h1>
+    This is dashboard
+  </h1>
+
+  <input type="text" id="tweet" class="form-control" placeholder="Tweet....">
+  <button type="submit" id="btn_tweet" >Tweet</button>
+
+
+  <input type="text" id="subscribe" class="form-control" placeholder="Enter subscribers name....">
+  
+  <button type="submit" id="btn_sub" >Subscribe</button>
+  
+
+  <button type="submit" id="btn_men" >Get mentions</button>
+
+
+  <button type="submit" id="btn_retweet" style="display:none"></button>
+
+
+<!--------------------------------->
+  <input type="text" id="query" class="form-control" placeholder="Enter hashtag or subscriber name">
+    
+  <button type="submit" id="btn_query" >Search</button>
+  
+  <ul id='search-list' class='list-group' style='list-style: block; min-height:200px; padding: 10px;'></ul>
+
+
+  <h5> Following..</h5>
+  <ul id='sub-list' class='list-group' style='list-style: block; min-height:200px; padding: 10px;'></ul>
+  
+
+  <h5>Tweets</h5>
+  <ul id='msg-list' class='list-group' style='list-style: block; min-height:200px; padding: 10px;'></ul>
+
+  <h5>Mentions</h5>
+  <ul id='men-list' class='list-group' style='list-style: block; min-height:200px; padding: 10px;'></ul>
+
+</div>
+
